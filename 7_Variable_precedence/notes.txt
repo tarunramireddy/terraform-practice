@@ -1,0 +1,8 @@
+If there is no where the variable is defined then it will use default value.
+
+1st priority is command line arguments. [-var = "value" or -var-file = "file name"]
+2nd priority is *.auto.tfvars.json, *.auto.tfvars
+3rd priority is terraform.tfvars.json, terraform.tfvars
+4th priority is *.tfvars.json, *.tfvars [// we need to pass file name in -var-file = "file name"]
+5th priority is environment variables.
+6th priority is default value.
