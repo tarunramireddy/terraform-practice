@@ -1,0 +1,13 @@
+provider "aws" {
+  region = "us-east-2"
+}
+
+resource "aws_instance" "web" {
+  ami="ami-025ca978d4c1d9825"
+  instance_type = "t2.micro"
+  count = 3
+}
+
+output "instance_id" {
+  value = aws_instance.web.*.id
+}
