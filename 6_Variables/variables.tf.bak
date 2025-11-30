@@ -1,0 +1,19 @@
+variable "cidr" {
+    default = "10.0.0.0/16"
+}
+
+variable "from_app_port" {
+    default = 8080
+}
+
+variable "to_app_port" {
+    default = 8888
+}
+
+variable "ssh_port" {
+    default = 22
+}
+
+variable "ftp_port" {
+    default = 21
+}

@@ -1,0 +1,6 @@
+Four ways to set variables
+
+1. Variable Defaults
+2. Variable Definition File (*.tfvars) 
+3. Environment Variables 
+4. Setting Variables in the Command Line
