@@ -31,6 +31,3 @@ terraform.rc
 
 # Ignore sensitive files
 token.tf
-*token*
-*secret*
-*password*
