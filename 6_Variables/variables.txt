@@ -2,5 +2,5 @@ Four ways to set variables
 
 1. Variable Defaults
 2. Variable Definition File (*.tfvars) 
-3. Environment Variables 
-4. Setting Variables in the Command Line
+3. Environment Variables  - TF_VAR_image=ami-00000000000000000
+4. Setting Variables in the Command Line - terraform apply -var "image=ami-00000000000000000"
